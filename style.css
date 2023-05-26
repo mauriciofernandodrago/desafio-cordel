@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 header{
     background-color: black;
+}
+header h1{
+    font-family: 'Passion One', cursive;
     color: white;
+    text-align: center;
+    font-size: 7vw;
+    padding-top: 50px;
+}
+header h1::first-letter{
+    font-size: 10vw;
+
+}
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
 }
 a{
     font-weight: bold;
@@ -14,8 +33,26 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
-
+main p{
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+    padding-left: 30px;
+    padding-top: 80px;
+    line-height: 7vw;
+    
+}
+div#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+div#joaninha p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
 
 
 
