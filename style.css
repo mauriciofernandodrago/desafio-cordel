@@ -33,12 +33,13 @@ a{
 a:hover{
     text-decoration: underline;
 }
-main p{
+main > p{
     font-size: 3.5vw;
     font-family: 'Sriracha', cursive;
     padding-left: 30px;
     padding-top: 80px;
     line-height: 7vw;
+    padding-bottom: 80px;
     
 }
 div#joaninha{
@@ -47,26 +48,43 @@ div#joaninha{
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+
+
 }
 div#joaninha p{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+    line-height: 7vw;
     color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+div#livros{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+}
+div#livros p{
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+    line-height: 7vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline-block;
+}
 
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
